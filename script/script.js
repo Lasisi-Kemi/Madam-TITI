@@ -26,14 +26,6 @@ formSubmit.addEventListener('submit', ()=>{
     return false
 })
 
-
-// document.getElementById("form-submit").addEventListener("submit", ()=>{
-// event.preventDefault()
-// document.getElementById("subscribed-pop-up").style.display = "block"
-  
-// setTimeout(()=> {document.getElementById("subscribed-pop-up").style.display = "none"}, 3000)
-//     return false
-// })
 let my_cart_list = {}
 let openShopping =document.querySelector('.header-container-order-container');
 let closeShopping = document.querySelector('.closeshopping');
